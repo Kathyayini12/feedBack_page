@@ -11,7 +11,7 @@ on:
 
 jobs:
   check-html:
-    runs-on: [self-hosted, windows-runner-01]   # Use your self-hosted runner labels
+    runs-on: [self-hosted, local-1]   # Use your self-hosted runner labels
     steps:
       # 1️⃣ Checkout repo
       - name: Checkout repository
