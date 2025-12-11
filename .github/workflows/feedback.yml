@@ -1,0 +1,34 @@
+name: Feedback Form CI
+
+# Trigger workflow on push or pull request
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-html:
+    runs-on: [self-hosted, windows-runner-01]   # Use your self-hosted runner labels
+    steps:
+      # 1️⃣ Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2️⃣ Validate HTML (example using html-validate npm)
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install html-validate
+        run: npm install -g html-validate
+
+      - name: Validate HTML
+        run: html-validate index.html
+
+      # 3️⃣ Optional: Print files to confirm
+      - name: List files
+        run: dir
