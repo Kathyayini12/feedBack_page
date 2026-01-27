@@ -12,7 +12,7 @@ Welcome to this responsive web coding challenge.
 
 ## The challenge
 
-Your task is to create a web page that closely resembles the provided design.
+Your task is to create a web page that closely resembles the provided design. and create ci/cd pipeline to valide the html code is correct before merging to main branch.
 
 You can use any tools or resources you like to complete this challenge. Each challenge is designed to practice different skills, so be sure to check the challenge description for more information.
 
