@@ -1,7 +1,5 @@
 # DevChallenges.io - Simple FAQ Page
 
-![CI](https://github.com/Kathyayini12/feedBack_page/actions/workflows/feedback.yml/badge.svg)
-
 ![Thumbnail for the Simple FAQ Page coding challenge](./thumbnail.jpg)
 
 ## Welcome! 👋
