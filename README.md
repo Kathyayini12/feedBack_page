@@ -110,10 +110,6 @@ If you want automated deployment, I can extend the workflow to build and deploy 
 
 The CI check will run automatically on your PR.
 
-## License
-
-Add your license here (e.g., MIT).
-
 ## Contact
 
 Maintainer: @Kathyayini12
